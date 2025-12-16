@@ -21,8 +21,8 @@ const Register = () => {
     }
 
     return (
-        <div className='min-h-screen flex justify-center items-start bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 text-gray-100 pt-16 px-4'>
-            <div className='w-full max-w-md mt-16 p-6 bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl border border-white/20'>
+        <div className="min-h-screen flex items-start justify-center bg-gradient-to-br from-[#0f172a] via-[#020617] to-[#020617] p-4 sm:p-6 text-gray-100">
+            <div className="w-full max-w-md mt-16 p-6 bg-white/5 backdrop-blur-2xl rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.6)] border border-white/10">
                 <h1 className='text-2xl sm:text-3xl font-bold mb-2 text-center tracking-wide'>Create Account</h1>
                 <p className='text-sm text-slate-300 text-center mb-5'>Join and start saving your ideas</p>
                 <form onSubmit={handleSubmit} className='flex flex-col gap-3'>

@@ -22,11 +22,11 @@ const AddTask = () => {
     }
 
     return (
-        <div className='min-h-screen flex justify-center items-start bg-gradient-to-br from-gray-900 via-slate-900 to-gray-800 text-gray-100 pt-16 px-4'>
-            <div className='w-full max-w-sm mt-16 px-6 py-6 bg-white/10 backdrop-blur-xl rounded-2xl shadow-xl border border-white/20'>
+
+        <div className="min-h-screen flex items-start justify-center bg-gradient-to-br from-[#0f172a] via-[#020617] to-[#020617] p-4 sm:p-6 text-gray-100">
+            <div className="w-full max-w-md mt-16 p-6 bg-white/5 backdrop-blur-2xl rounded-3xl shadow-[0_20px_50px_rgba(0,0,0,0.6)] border border-white/10">
                 <button onClick={() => navigate("/profile")} className='flex items-center gap-2 text-slate-300 hover:text-violet-400 transition mb-5'>
-                    <span className='text-sm font-semibold px-3 py-1 rounded-lg border border-slate-500 hover:border-violet-500'>← Back</span>
-                </button>
+                    <span className='text-sm font-semibold px-3 py-1 rounded-lg border border-slate-500 hover:border-violet-500'>← Back</span>                </button>
                 <h1 className='text-2xl sm:text-3xl font-bold mb-1 text-center'>Add New Post</h1>
                 <p className='text-sm text-slate-300 text-center mb-5'>Upload an image and title</p>
                 <form onSubmit={handleSubmit} className='flex flex-col gap-3'>
